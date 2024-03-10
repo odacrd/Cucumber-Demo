@@ -57,7 +57,4 @@ public class LoginPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(ERROR)).getText();
     }
 
-    public void shutdown(){
-        driver.quit();
-    }
 }
